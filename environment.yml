@@ -1,0 +1,19 @@
+name: data-spec-loupe
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - napari=0.6.6
+  - matplotlib=3.10
+  - pyqt=5.15
+  - jupyterlab=4.5.1
+  - pandas=2.3.3
+  - numpy
+  - scikit-learn
+  - pathlib
+  - seaborn
+  - plotly
+  - pip
+  - pip:
+      - fire
+      - pytest
